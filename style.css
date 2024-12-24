@@ -89,6 +89,11 @@ header {
 .Container_height{
     height: 80px !important;
 }
+@media (max-width: 768px) {
+  .Container_height{
+    height: 30px !important;
+}
+}
 /* ---------------------------------------------------------------------------Slider Section--------------------------------------------- */
 
 .splide__slide {
@@ -111,6 +116,14 @@ header {
 }
 
 /* --------------------------------------------------------------------About Section------------------------------------------------------- */
+.about_Topic{
+  font-size: 3rem;
+}
+@media (max-width: 768px) {
+  .about_Topic{
+    font-size: 2rem;
+  }
+}
 .btn-discover {
   background-color: #e71b00;
   color: #fff;
